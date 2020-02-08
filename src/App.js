@@ -2,9 +2,7 @@ import React, { Component } from "react";
 import Products from "./components/Products";
 import Filter from "./components/Filter";
 import Basket from "./components/Basket";
-
 import "./App.css";
-import Copyright from "./components/Copyright";
 
 class App extends Component {
   constructor() {
@@ -122,7 +120,6 @@ class App extends Component {
               cartItems={this.state.cartItems}
               handleRemoveFromCart={this.handleRemoveFromCart}
             />
-            <Copyright />
           </div>
         </div>
       </div>

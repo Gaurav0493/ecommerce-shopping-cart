@@ -6,9 +6,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(246, 250, 224);
+  color: #000000;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+ 
+.product-list a {
+  text-decoration: none;
+}
+
+.thumbnail.text-center {
+  color: #ffffff;
+}
+
+
+.thumbnail.text-center:hover {
+  background-color: aliceblue;
+  color: #df691a;
+}
+
+.thumbnail.text-center button:hover {
+  background-color:#2b3e50;
+  color: #df691a;
+}
+
+.alert.alert-info {
+  border-radius: 10px;
 }
