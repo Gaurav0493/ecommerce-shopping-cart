@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import util from '../util'
 export default class Basket extends Component {
     render() {
-        const { cartItems } = this.props;
+        const { cartItems, ls } = this.props;
 
         return (
             <div className="alert alert-info">
